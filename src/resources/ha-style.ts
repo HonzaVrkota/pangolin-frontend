@@ -1,8 +1,9 @@
 import "@polymer/polymer/lib/elements/custom-style";
 import { derivedStyles } from "./styles";
 
-export const DEFAULT_PRIMARY_COLOR = "#03a9f4";
-export const DEFAULT_ACCENT_COLOR = "#ff9800";
+// export const DEFAULT_PRIMARY_COLOR = "#03a9f4";
+export const DEFAULT_PRIMARY_COLOR = "#4BBA4A";
+export const DEFAULT_ACCENT_COLOR = "#0E351F";
 
 const documentContainer = document.createElement("template");
 documentContainer.setAttribute("style", "display: none;");
@@ -46,7 +47,7 @@ documentContainer.innerHTML = `<custom-style>
       --primary-background-color: #fafafa;
       --secondary-background-color: #e5e5e5; /* behind the cards on state */
       --clear-background-color: #ffffff;
-      
+
       /* for header */
       --header-height: 56px;
 
